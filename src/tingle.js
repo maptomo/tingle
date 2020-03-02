@@ -49,7 +49,7 @@
     _build.call(this)
     _bindEvents.call(this)
 
-    // insert modal in dom
+    // append modal in dom
     document.body.append(this.modal)
 
     if (this.opts.footer) {
